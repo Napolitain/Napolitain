@@ -16,4 +16,3 @@ Here are some ideas to get you started:
 -->
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Napolitain&exclude_repo=napolitain.github.io)](https://github.com/anuraghazra/github-readme-stats)
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Napolitain)](https://github.com/anuraghazra/github-readme-stats)
