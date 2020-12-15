@@ -8,5 +8,4 @@
  
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Napolitain&layout=compact&exclude_repo=napolitain.github.io)](https://github.com/anuraghazra/github-readme-stats)
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Napolitain&count_private=true&show_icons=true)
 ![GitHub metrics](https://github.com/Napolitain/Napolitain/blob/main/metrics.svg)
