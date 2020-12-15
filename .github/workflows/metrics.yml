@@ -19,6 +19,7 @@ jobs:
           plugin_lines: yes
           plugin_isocalendar: yes
           plugin_topics: yes
+          plugin_languages: yes
           
   github-metrics:
     runs-on: ubuntu-latest
