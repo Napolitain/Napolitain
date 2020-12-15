@@ -15,7 +15,7 @@ jobs:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          base: "header, activity, community, repositories"
+          base: "header, activity, repositories"
           plugin_lines: yes
           plugin_isocalendar: yes
           plugin_languages: yes
