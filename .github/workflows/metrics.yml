@@ -34,16 +34,6 @@ jobs:
           plugin_lines: yes
           plugins_errors_fatal: yes
 
-      - name: Terminal template
-        uses: lowlighter/metrics@master
-        with:
-          template: terminal
-          filename: metrics.terminal.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.METRICS_BOT_TOKEN }}
-          base: "header, metadata"
-          plugins_errors_fatal: yes
-
       - name: Habits plugin
         uses: lowlighter/metrics@master
         with:
