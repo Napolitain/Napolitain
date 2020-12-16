@@ -7,5 +7,4 @@
      - Web (Node.JS/Headless Chrome)
  
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Napolitain&layout=compact&exclude_repo=napolitain.github.io)](https://github.com/anuraghazra/github-readme-stats)
 ![GitHub metrics](https://github.com/Napolitain/Napolitain/blob/main/metrics.svg)
