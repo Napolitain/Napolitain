@@ -19,5 +19,6 @@ jobs:
           plugin_lines: yes
           plugin_isocalendar: yes
           plugin_languages: yes
-          plugin_languages_ignored: "html,css,xaml,postscript,netlogo"
+          plugin_languages_ignored: "html,css,xaml,postscript,netlogo,pug"
           plugin_languages_skipped: "napolitain.github.io,metrics"
+          plugin_languages_details: percentage             # Additionally display total bytes size and percentage
