@@ -8,7 +8,6 @@ jobs:
   github-metrics-personal:
     runs-on: ubuntu-latest
     steps:
-  
       - name: Personal metrics
         uses: napolitain/metrics@master
         with:
@@ -22,3 +21,5 @@ jobs:
           plugin_languages_ignored: "html,css,xaml,postscript,netlogo,pug"
           plugin_languages_skipped: "napolitain.github.io,metrics"
           plugin_languages_details: percentage             # Additionally display total bytes size and percentage
+          repositories_affiliations: "collaborator"
+
