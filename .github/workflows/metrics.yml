@@ -21,4 +21,5 @@ jobs:
           plugin_languages_ignored: "html,css,xaml,postscript,netlogo,pug"
           plugin_languages_skipped: "napolitain.github.io,metrics"
           plugin_languages_details: percentage, bytes
+          plugin_languages_indepth: true
 
