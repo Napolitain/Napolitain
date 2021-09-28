@@ -22,6 +22,6 @@ jobs:
           plugin_languages_ignored: "html,css,xaml,postscript,netlogo,pug,Makefile,CMake"
           plugin_languages_skipped: "napolitain.github.io,metrics"
           plugin_languages_details: percentage, lines
-          plugin_languages_indepth: yes
-          repositories_affiliations: owner, collaborator, organization_member
+          plugin_languages_indepth: no
+          repositories_affiliations: owner, organization_member
 
