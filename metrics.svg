@@ -175,6 +175,61 @@
     font-size: 12px;
     background-color: #959da520;
   }
+  .contribution.organization.s {
+    color: #EB355E;
+    background-color: #EB355E26;
+    border-color: #EB355E;
+  }
+  .contribution.organization.a {
+    color: #D79533;
+    background-color: #E7BD6926;
+    border-color: #E7BD69;
+  }
+  .contribution.organization.b {
+    color: #9D8FFF;
+    background-color: #9E91FF26;
+    border-color: #9E91FF;
+  }
+  .contribution.organization.c {
+    color: #58A6FF;
+    background-color: #58A6FF26;
+    border-color: #58A6FF;
+  }
+  .contribution .gauge-base, .contribution .gauge-arc {
+    stroke: currentColor;
+    stroke-width: 4;
+  }
+  .contribution .gauge text {
+    fill: currentColor;
+    font-size: 12px;
+    font-size: 15px;
+    letter-spacing: -2px;
+  }
+  .contribution .gauge {
+    margin: 0 4px;
+    color: inherit;
+  }
+  .contribution .commits-icon {
+    fill: currentColor;
+    width: 10px;
+    height: 10px;
+    margin-left: -9px;
+    margin-top: 8px;
+    color: inherit;
+    filter: brightness(.5);
+  }
+  .contribution.s .side {
+    background-color: #EB355E26;
+  }
+  .contribution.a .side {
+    background-color: #E7BD6926;
+  }
+  .contribution.b .side {
+    background-color: #9E91FF26;
+  }
+  .contribution.c .side {
+    background-color: #58A6FF26;
+  }
 
   .contribution.organization .avatar {
     margin: 0 4px;
@@ -935,10 +990,25 @@
     margin-right: 0;
   }
 
-/* Introduction */
-  .introduction {
+/* Introduction and sponsors */
+  .introduction, .sponsors {
     white-space: normal;
     margin: 0 13px 2px;
+  }
+  .sponsors.goal {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: #7777771F;
+  }
+  .sponsors .goal-text {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+  .sponsors .avatar {
+    margin: 2px;
   }
 
 /* Stackoverflow */
@@ -1141,6 +1211,22 @@
     display: inline-block;
     width: 97%;
   }
+  .markdown p {
+    margin: 8px 0;
+  }
+  .markdown ul {
+    padding-left: 24px;
+  }
+  .markdown a {
+    color: #58a6ff;
+    text-decoration: none;
+  }
+  .markdown blockquote {
+    border-left: 4px solid #7777771F;
+    color: #777777;
+    margin: 0;
+    padding-left: 16px;
+  }
   code {
     background-color: #7777771F;
     display: inline-block;
@@ -1316,14 +1402,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="410.71539553508353" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="410.71539553508353" y="0" width="29.978636639911233" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="440.69403217499473" y="0" width="9.337757005492332" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="450.03178918048707" y="0" width="2.7948856049681683" height="8" fill="#222c37"/>
-                    <rect mask="url(#languages-bar)" x="452.8266747854552" y="0" width="2.5406126568428835" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="455.36728744229816" y="0" width="2.4973447659031494" height="8" fill="#438eff"/>
-                    <rect mask="url(#languages-bar)" x="457.8646322082013" y="0" width="1.4800412909610126" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="459.3446734991623" y="0" width="0.6553265008377103" height="8" fill="#dd1100"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="410.71038960566784" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="410.71038960566784" y="0" width="29.98168162608141" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="440.69207123174925" y="0" width="9.338705458928814" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="450.03077669067807" y="0" width="2.795169486724253" height="8" fill="#222c37"/>
+                    <rect mask="url(#languages-bar)" x="452.82594617740233" y="0" width="2.54087071162025" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="455.3668168890226" y="0" width="2.4975984258799415" height="8" fill="#438eff"/>
+                    <rect mask="url(#languages-bar)" x="457.86441531490254" y="0" width="1.4801916215219517" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="459.3446069364245" y="0" width="0.6553930635755681" height="8" fill="#dd1100"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -1333,7 +1419,7 @@
                       C++
                     </div>
                             <small>
-                                <div>89.29%</div>
+                                <div>89.28%</div>
                             </small>
                         </div>
                         <div class="field language details">
